@@ -35,7 +35,6 @@ void ofApp::setup(){
 //    
     model.loadModel("test.3ds",20);
     
-    
 }
 
 //--------------------------------------------------------------
@@ -55,8 +54,8 @@ void ofApp::draw(){
  //   model.draw();
     glPushMatrix();
     int i = 0;
-    for(i = 0 ; i < (sizeof(wp) / sizeof(wp[0]))-2;i++){
-        wp[i].drawWp(wp[i+2]);
+    for(i = 0 ; i < (sizeof(wp) / sizeof(wp[0]))-1;i++){
+        wp[i].drawWp(wp[i+1]);
         
     }
     ofSetColor(255, 0, 0);
@@ -78,6 +77,7 @@ void ofApp::draw(){
     }else{
         Play(false);
     }
+    t.update();
     cam.end();
     
 }
@@ -89,7 +89,7 @@ void ofApp::keyPressed(int key){
             gui -> toggleVisible();
             break;
         case ' ':
-            flag = !flag;
+            t.play(wp,3);
             break;
             
         default:
@@ -141,7 +141,7 @@ void ofApp::exit(){
     gui -> saveSettings("setting.xml");
     delete gui;
 }
-//--------------------------------------------------------------
+//- -------------------------------------------------------------
 void ofApp::guiEvent(ofxUIEventArgs &e){
     
     if(e.getName()=="BACKGROUND"){
@@ -157,7 +157,7 @@ void ofApp::guiEvent(ofxUIEventArgs &e){
        // ofBackground(colors.x, colors.y, 255);
     }if(e.getName() == "add"&&e.getButton()){
         if(num%2==0){
-            wp[num].setParam(posX,posY,posZ, num/2, true);
+            wp[num/2].setParam(posX,posY,posZ, num/2, true);
             cout<<num/2;
         }
         num++;

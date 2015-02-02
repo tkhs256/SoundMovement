@@ -31,7 +31,6 @@ void waypoint::drawWp(waypoint w){
 
     }
     if(w.isVisible){
-        cout<<w.x<<endl;
         ofLine(w.x,w.y,w.z,x,y,z);
     }
 

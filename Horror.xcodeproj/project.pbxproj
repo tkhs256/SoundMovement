@@ -23,7 +23,7 @@
 		AF563CC71A6CBC9A00C2BD97 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF563CBC1A6CBC9A00C2BD97 /* ofxSlider.cpp */; };
 		AF563CC81A6CBC9A00C2BD97 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF563CBE1A6CBC9A00C2BD97 /* ofxSliderGroup.cpp */; };
 		AF563CC91A6CBC9A00C2BD97 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF563CC01A6CBC9A00C2BD97 /* ofxToggle.cpp */; };
-		AF87CF131A7DD7D6005E1396 /* target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF87CF111A7DD7D6005E1396 /* target.cpp */; };
+		AF87CF1D1A7F626E005E1396 /* target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF87CF1B1A7F626E005E1396 /* target.cpp */; };
 		AFD610B01A6CEA4000F861A4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFD610111A6CEA3F00F861A4 /* README.md */; };
 		AFD610B11A6CEA4000F861A4 /* ofxUI2DGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFD610141A6CEA3F00F861A4 /* ofxUI2DGraph.cpp */; };
 		AFD610B21A6CEA4000F861A4 /* ofxUI2DPad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFD610161A6CEA3F00F861A4 /* ofxUI2DPad.cpp */; };
@@ -215,8 +215,8 @@
 		AF563CBF1A6CBC9A00C2BD97 /* ofxSliderGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSliderGroup.h; sourceTree = "<group>"; };
 		AF563CC01A6CBC9A00C2BD97 /* ofxToggle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxToggle.cpp; sourceTree = "<group>"; };
 		AF563CC11A6CBC9A00C2BD97 /* ofxToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxToggle.h; sourceTree = "<group>"; };
-		AF87CF111A7DD7D6005E1396 /* target.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = target.cpp; sourceTree = "<group>"; };
-		AF87CF121A7DD7D6005E1396 /* target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = target.h; sourceTree = "<group>"; };
+		AF87CF1B1A7F626E005E1396 /* target.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = target.cpp; sourceTree = "<group>"; };
+		AF87CF1C1A7F626E005E1396 /* target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = target.h; sourceTree = "<group>"; };
 		AF9A155219FEDFA6E95454EA /* gpu.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gpu.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/gpu.hpp; sourceTree = SOURCE_ROOT; };
 		AFD60E131A6CEA3C00F861A4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AFD610101A6CEA3F00F861A4 /* ofxaddons_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ofxaddons_thumbnail.png; sourceTree = "<group>"; };
@@ -947,8 +947,8 @@
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
 				AF563C981A6B559A00C2BD97 /* waypoint.h */,
 				AF563C991A6B55AE00C2BD97 /* waypoint.cpp */,
-				AF87CF111A7DD7D6005E1396 /* target.cpp */,
-				AF87CF121A7DD7D6005E1396 /* target.h */,
+				AF87CF1B1A7F626E005E1396 /* target.cpp */,
+				AF87CF1C1A7F626E005E1396 /* target.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -1087,7 +1087,7 @@
 				AFD610C51A6CEA4000F861A4 /* ofxUIMinimalSlider.cpp in Sources */,
 				AFD610BD1A6CEA4000F861A4 /* ofxUIImage.cpp in Sources */,
 				AFD610B11A6CEA4000F861A4 /* ofxUI2DGraph.cpp in Sources */,
-				AF87CF131A7DD7D6005E1396 /* target.cpp in Sources */,
+				AF87CF1D1A7F626E005E1396 /* target.cpp in Sources */,
 				AF3A22AB1A6E3C2700289C2F /* ofx3dModelLoader.cpp in Sources */,
 				AFD610D71A6CEA4000F861A4 /* ofxUIToggle.cpp in Sources */,
 				AFD610CC1A6CEA4000F861A4 /* ofxUIRectangle.cpp in Sources */,

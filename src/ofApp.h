@@ -3,9 +3,9 @@
 #include "ofMain.h"
 #include <stdlib.h>
 #include "waypoint.h"
-#include "target.h"
 #include "ofxGui.h"
 #include "ofxUI.h"
+#include "target.h"
 #include "ofx3DModelLoader.h"
 class ofApp : public ofBaseApp{
     
@@ -16,7 +16,10 @@ public:
     float posX;
     float posY;
     float posZ;
-    bool isAdded;
+   
+
+    
+     bool isAdded;
     void setup();
     void update();
     void draw();

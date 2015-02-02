@@ -20,10 +20,9 @@ public:
     int num;
     bool isVisible = false;
 
-    void drawWp();
+    void drawWp(waypoint w);
     void setParam(float _x , float _y , float _z,int _num ,bool _isVisible);
     void moveWp(float _x,float _y, float _z);
-   // void drawConnect(waypoint w);
     ofColor color;
     ofSpherePrimitive sphere;
     

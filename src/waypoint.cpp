@@ -23,17 +23,18 @@ void waypoint::setParam(float _x, float _y, float _z,int _num ,bool _isVisible){
     isVisible = _isVisible;
     
 }
-void waypoint::drawWp(){
+void waypoint::drawWp(waypoint w){
     if(isVisible){
         ofSetColor(color);
         ofFill();
         ofDrawSphere(x,y,z,40);
+
     }
+    if(w.isVisible){
+        cout<<w.x<<endl;
+        ofLine(w.x,w.y,w.z,x,y,z);
+    }
+
     
     
 }
-//void waypoint::drawConnect(waypoint w){
-//    if(w.isVisible){
-//        ofLine(w.x,w.y,w.z,x,y,z);
-//    }
-//}

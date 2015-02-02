@@ -6,24 +6,40 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8E1A62ED-3C2C-459F-8849-83DDC2A7C106</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Horror</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7E804D925461714118DB355C65BC964B41D94376</key>
 		<string>https://github.com/rezaali/ofxUI</string>
+		<key>BFB3C1F1BD0EAB30971688AA02CD99093459F084</key>
+		<string>https://github.com/tkhs256/SoundMovement.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Horror.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7E804D925461714118DB355C65BC964B41D94376</key>
-		<string>ofxUI/</string>
+		<string>../../../../../addons/ofxUI</string>
+		<key>BFB3C1F1BD0EAB30971688AA02CD99093459F084</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/rezaali/ofxUI</string>
+	<string>https://github.com/tkhs256/SoundMovement.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7E804D925461714118DB355C65BC964B41D94376</string>
+	<string>BFB3C1F1BD0EAB30971688AA02CD99093459F084</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFB3C1F1BD0EAB30971688AA02CD99093459F084</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Horror</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

@@ -6,18 +6,18 @@
 <Widget>
     <Kind>11</Kind>
     <Name>PAD</Name>
-    <XValue>307.704467773</XValue>
-    <YValue>-192.945831299</YValue>
+    <XValue>0.000000000</XValue>
+    <YValue>0.000000000</YValue>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>X</Name>
-    <Value>307.704467773</Value>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>Y</Name>
-    <Value>-192.945831299</Value>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>

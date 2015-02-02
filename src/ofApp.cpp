@@ -3,6 +3,7 @@
 //--------------------------------------------------------------
 int num;
 bool isPressed = false;
+bool flag = false;
 ofVec2f colors;
 void ofApp::setup(){
 //      ofToggleFullscreen();
@@ -54,9 +55,9 @@ void ofApp::draw(){
  //   model.draw();
     glPushMatrix();
     int i = 0;
-    for(i = 0 ; i < (sizeof(wp) / sizeof(wp[0]));i++){
-        wp[i].drawWp();
-      //  wp[i].drawConnect(wp[i+1]);
+    for(i = 0 ; i < (sizeof(wp) / sizeof(wp[0]))-2;i++){
+        wp[i].drawWp(wp[i+2]);
+        
     }
     ofSetColor(255, 0, 0);
     ofLine(-ofGetWidth(), 0, 0, ofGetWidth(), 0, 0);
@@ -72,7 +73,11 @@ void ofApp::draw(){
     ofSetColor(150, 150, 150,150);
     ofFill();
     ofDrawSphere(posX, posY, posZ, 50);
-    
+    if(flag){
+    Play(true);
+    }else{
+        Play(false);
+    }
     cam.end();
     
 }
@@ -82,6 +87,9 @@ void ofApp::keyPressed(int key){
     switch (key) {
         case 'h':
             gui -> toggleVisible();
+            break;
+        case ' ':
+            flag = !flag;
             break;
             
         default:
@@ -149,7 +157,7 @@ void ofApp::guiEvent(ofxUIEventArgs &e){
        // ofBackground(colors.x, colors.y, 255);
     }if(e.getName() == "add"&&e.getButton()){
         if(num%2==0){
-            wp[num].setParam(colors.x,colors.y,0, num/2, true);
+            wp[num].setParam(posX,posY,posZ, num/2, true);
             cout<<num/2;
         }
         num++;
@@ -170,4 +178,20 @@ void ofApp::guiEvent(ofxUIEventArgs &e){
         cam.setDistance(slider ->getScaledValue());
         
     }
+}
+
+
+void ofApp::Play(bool flag){
+    if(flag){
+        cout<<"read"<<endl;
+        float X = 0;
+        float Y = 0;
+        float Z = 0;
+        
+        ofSetColor(100, 255, 100);
+        ofDrawSphere(X, Y, Z, 50);
+    }else{
+    
+    }
+
 }
